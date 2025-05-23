@@ -174,7 +174,7 @@ int main() {
     scanf("%f", &marks2);
     scanf("%f", &marks3);
     total = marks1 + marks2 + marks3;
-    percentage = (total / 300) * 100;  // Total marks = 300 (assuming each subject is out of 100)
+    percentage = (total / 300) * 100;  
     printf("\nTotal Marks: %.2f\n", total);
     printf("Percentage: %.2f%%\n", percentage);
     if (marks1 < 35 || marks2 < 35 || marks3 < 35) {
