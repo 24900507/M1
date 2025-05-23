@@ -89,7 +89,6 @@ struct Fraction {
     int denominator;
 };
 int compareFractions(struct Fraction f1, struct Fraction f2) {
-    // Cross-multiply to avoid floating-point division
     return (f1.numerator * f2.denominator) < (f2.numerator * f1.denominator);
 }
 int main() {
